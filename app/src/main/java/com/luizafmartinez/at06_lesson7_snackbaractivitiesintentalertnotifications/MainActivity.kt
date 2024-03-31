@@ -28,9 +28,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun MgSnack(view: View) {
-        Snackbar.make(findViewById(R.id.sendMessage),
+        Snackbar.make(
+            findViewById(R.id.sendMessage),
             "Your email has been sent succesfully",
-            Snackbar.LENGTH_LONG)
+            Snackbar.LENGTH_LONG
+        )
             .setAction("OK") { }.setActionTextColor(Color.RED).show()
     }
 
@@ -39,13 +41,11 @@ class MainActivity : AppCompatActivity() {
         Snackbar.make(
             findViewById(R.id.sendMessage),
             "onStart method is running now",
-            Snackbar.LENGTH_LONG).show()
+            Snackbar.LENGTH_LONG
+        ).show()
     }
 
     fun shutDown(view: View) {
         onDestroy()
     }
-
-
-
 }
