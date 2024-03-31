@@ -34,6 +34,18 @@ class MainActivity : AppCompatActivity() {
             .setAction("OK") { }.setActionTextColor(Color.RED).show()
     }
 
+    override fun onStart() {
+        super.onStart()
+        Snackbar.make(
+            findViewById(R.id.sendMessage),
+            "onStart method is running now",
+            Snackbar.LENGTH_LONG).show()
+    }
+
+    fun shutDown(view: View) {
+        onDestroy()
+    }
+
 
 
 }
