@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AT06_Lesson7_SnackbarActivitiesIntentAlertNotifications" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.AT06_Lesson7_SnackbarActivitiesIntentAlertNotifications" parent="Base.Theme.AT06_Lesson7_SnackbarActivitiesIntentAlertNotifications" />
+</resources>
